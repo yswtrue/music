@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import path, include
 from album import urls as album_url
 urlpatterns = [
-    path('album/', include(album_url)),
+    path('', include(album_url)),
     path('admin/', admin.site.urls),
 ]
